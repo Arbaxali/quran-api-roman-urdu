@@ -39,6 +39,17 @@ ayah = d.get(srandayahno, "not found")
 
 
 
-print("chapter: {}".format(y))
-print("ayah no: {}".format(srandayahno))
-print("ayah : {}".format(ayah))
+# print("chapter: {}".format(y))
+# print("ayah no: {}".format(srandayahno))
+# print("ayah : {}".format(ayah))
+
+x = {
+    "chapter": y ,
+    "ayah no": srandayahno ,
+    "ayah " : ayah
+}
+
+
+jsonn = json.dumps(x)
+
+print(jsonn)
