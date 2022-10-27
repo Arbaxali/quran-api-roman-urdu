@@ -17,3 +17,6 @@ s.sendmail("sender_email_id", "receiver_email_id", message)
 
 # terminating the session
 s.quit()
+
+
+print("hekkio)
